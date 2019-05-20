@@ -30,7 +30,7 @@ void ConnectToEngine(char* path)
    sti.hStdOutput = pipout_w;
    sti.hStdError = pipout_w;
 
-   CreateProcess(NULL, path, NULL, NULL, TRUE,0, NULL, NULL, &sti, &pi);
+   bool success = CreateProcess(NULL, path, NULL, NULL, TRUE,0, NULL, NULL, &sti, &pi);
 }
 
 
@@ -40,7 +40,7 @@ std::string getNextMove(std::string position)
 	position = "position startpos moves "+position+"\ngo\n";	
 
 	WriteFile(pipin_w, position.c_str(), position.length(),&writ, NULL);
-    Sleep(500);
+    Sleep(1000);
         
     PeekNamedPipe(pipout_r, buffer,sizeof(buffer), &read, &available, NULL);   
     do
@@ -53,7 +53,11 @@ std::string getNextMove(std::string position)
     while(read >= sizeof(buffer));
 
 	int n = str.find("bestmove");  
-	if (n!=-1) return str.substr(n+9,4);
+	if (n != -1)
+	{
+		std::string move = str.substr(n + 9, 4);
+		return move;
+	}
 			 
     return "error";
 }

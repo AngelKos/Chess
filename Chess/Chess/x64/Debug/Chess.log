@@ -1,18 +1,16 @@
 ﻿  Source.cpp
 c:\users\user\documents\informatics\chess\chess\connector.hpp(42): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
 c:\users\user\documents\informatics\chess\chess\connector.hpp(55): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-c:\users\user\documents\informatics\chess\chess\source.cpp(26): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+c:\users\user\documents\informatics\chess\chess\source.cpp(28): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-c:\users\user\documents\informatics\chess\chess\source.cpp(73): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\user\documents\informatics\chess\chess\source.cpp(78): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\user\documents\informatics\chess\chess\source.cpp(102): warning C4305: '=': truncation from 'int' to 'char'
-c:\users\user\documents\informatics\chess\chess\source.cpp(102): warning C4309: '=': truncation of constant value
-c:\users\user\documents\informatics\chess\chess\source.cpp(159): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\user\documents\informatics\chess\chess\source.cpp(165): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\user\documents\informatics\chess\chess\source.cpp(194): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+c:\users\user\documents\informatics\chess\chess\source.cpp(150): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\user\documents\informatics\chess\chess\source.cpp(155): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\user\documents\informatics\chess\chess\source.cpp(206): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\user\documents\informatics\chess\chess\source.cpp(211): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\user\documents\informatics\chess\chess\source.cpp(243): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=int
@@ -21,15 +19,15 @@ c:\users\user\documents\informatics\chess\chess\source.cpp(194): warning C4244: 
           [
               T=float
           ]
-c:\users\user\documents\informatics\chess\chess\source.cpp(210): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+c:\users\user\documents\informatics\chess\chess\source.cpp(259): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-c:\users\user\documents\informatics\chess\chess\source.cpp(211): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+c:\users\user\documents\informatics\chess\chess\source.cpp(260): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-c:\users\user\documents\informatics\chess\chess\source.cpp(245): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\user\documents\informatics\chess\chess\source.cpp(327): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
   Chess.vcxproj -> C:\Users\User\Documents\Informatics\Chess\x64\Debug\Chess.exe
